@@ -1,0 +1,9 @@
+Profile ID,Target Career,Missing Skills Count,Covered Skills Count,Gap Coverage (%),Top-1 Coverage (%),Top-3 Coverage (%),Top-5 Coverage (%),Course Relevance (%),Cert Relevance (%)
+profile_ml_engineer,Machine Learning Engineer,1,1,100.0,100.0,100.0,100.0,100.0,100.0
+profile_frontend_developer,Frontend Developer,0,0,100.0,100.0,100.0,100.0,100.0,100.0
+profile_devops_engineer,DevOps Engineer,0,0,100.0,100.0,100.0,100.0,100.0,100.0
+profile_backend_developer,Backend Developer,2,2,100.0,100.0,100.0,100.0,100.0,100.0
+profile_data_analyst,Data Analyst,1,0,0.0,0.0,0.0,0.0,100.0,100.0
+profile_cybersecurity,Cybersecurity Analyst,1,1,100.0,100.0,100.0,100.0,100.0,100.0
+profile_mobile_dev,Mobile App Developer,3,3,100.0,66.67,66.67,100.0,100.0,100.0
+profile_database_admin,Database Administrator,1,1,100.0,100.0,100.0,100.0,100.0,100.0

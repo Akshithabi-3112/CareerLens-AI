@@ -1,0 +1,58 @@
+career,required_skills,preferred_skills,description
+Data Scientist,Python|SQL|Machine Learning|Data Analysis|Statistics,Pandas|NumPy|Scikit-learn|Deep Learning,Analyzes data and builds machine learning solutions
+Machine Learning Engineer,Python|Machine Learning|Deep Learning|SQL,TensorFlow|PyTorch|Docker|AWS,Builds and deploys machine learning systems
+Data Analyst,Python|SQL|Data Analysis|Excel,Power BI|Tableau|Pandas,Analyzes data and creates business insights
+Backend Developer,Python|Java|SQL|FastAPI,Docker|Git|AWS|MongoDB,Builds server-side applications and APIs
+Full Stack Developer,JavaScript|HTML|CSS|React|SQL,Python|FastAPI|Git,Builds complete web applications
+Frontend Developer,JavaScript|HTML|CSS|React,TypeScript|Git|UI Design,Builds user interfaces and frontend applications
+DevOps Engineer,Docker|Git|AWS|Linux,Kubernetes|CI/CD|Python,Automates deployment and infrastructure
+Cloud Engineer,AWS|Linux|Docker|Networking,Python|Kubernetes|Azure,Designs and manages cloud infrastructure
+Cybersecurity Analyst,Cybersecurity|Networking|Linux|Python,Wireshark|Burp Suite|Ethical Hacking,Protects systems and analyzes security threats
+Software Engineer,Python|Java|Problem Solving|Data Structures,Git|SQL|Docker,Designs and develops software applications
+Database Developer,SQL|MySQL|MongoDB|Database Design,Python|PostgreSQL|Git,Designs and manages database systems
+AI Engineer,Python|Machine Learning|Deep Learning|Data Analysis,TensorFlow|PyTorch|Docker,Develops artificial intelligence applications
+Business Intelligence Analyst,SQL|Data Analysis|Excel,Power BI|Tableau|Python,Creates reports and business intelligence solutions
+UI Designer,Figma|UI Design|Wireframing|Typography|Color Theory,Adobe XD|Sketch|Design Systems|CSS|Prototyping,Designs visual interfaces and user-facing components
+UX Designer,UX Design|User Research|Wireframing|Prototyping|Usability Testing,Figma|Adobe XD|Information Architecture|Interaction Design,Researches and designs user experiences
+UI/UX Designer,Figma|UI Design|UX Design|Wireframing|Prototyping,User Research|Adobe XD|Design Systems|HTML|CSS,Designs and researches end-to-end user interfaces and experiences
+Graphic Designer,Adobe Photoshop|Adobe Illustrator|Graphic Design|Typography|Color Theory,Figma|Canva|Branding|Motion Graphics,Creates visual content for digital and print media
+Visual Designer,Adobe Photoshop|Adobe Illustrator|Graphic Design|Typography|Color Theory,Figma|Branding|UI Design|Motion Graphics,Crafts visual identities and design assets across platforms
+Product Designer,Figma|UI Design|UX Design|Prototyping|User Research,Design Systems|Wireframing|Usability Testing|HTML|CSS,Leads end-to-end product design from research to high-fidelity prototypes
+Interaction Designer,Figma|Interaction Design|Prototyping|UX Design|Wireframing,Animation|User Research|HTML|CSS|Design Systems,Designs interactive behaviors and motion within digital products
+Motion Graphics Designer,Adobe After Effects|Motion Graphics|Adobe Illustrator|Animation|Video Editing,Adobe Premiere Pro|Cinema 4D|Storyboarding|Color Theory,Creates animated visual content for video and digital media
+Game Designer,Game Design|Unity|Storytelling|Level Design|Problem Solving,C#|Unreal Engine|3D Modeling|Scripting,Designs gameplay mechanics rules and player experiences
+3D Artist,3D Modeling|Blender|Texturing|Rendering|Maya,ZBrush|Cinema 4D|UV Mapping|Lighting,Creates three-dimensional assets for games film and media
+Animator,Animation|Adobe After Effects|Rigging|Storyboarding|Motion Graphics,Blender|Maya|Character Design|Video Editing,Produces character and motion animations for digital media
+Web Developer,HTML|CSS|JavaScript|Responsive Design,React|Git|Bootstrap|SQL,Builds and maintains websites and web-based applications
+Junior Software Developer,Python|Java|Problem Solving|Data Structures|Git,SQL|HTML|CSS|JavaScript,Develops software features under guidance as an entry-level engineer
+Mobile App Developer,React Native|JavaScript|Mobile Development|REST APIs,Flutter|Firebase|Git|UI Design,Builds cross-platform mobile applications for iOS and Android
+Android Developer,Java|Kotlin|Android Development|REST APIs|Mobile Development,Firebase|Git|SQL|UI Design,Develops native Android applications
+iOS Developer,Swift|Objective-C|iOS Development|REST APIs|Mobile Development,Xcode|Firebase|Git|UI Design,Develops native iOS applications for Apple devices
+React Developer,JavaScript|React|HTML|CSS|REST APIs,TypeScript|Git|Redux|Node.js,Builds dynamic user interfaces using the React framework
+Angular Developer,JavaScript|Angular|TypeScript|HTML|CSS,RxJS|Git|REST APIs|Node.js,Develops enterprise web applications using the Angular framework
+Vue.js Developer,JavaScript|Vue.js|HTML|CSS|REST APIs,TypeScript|Git|Vuex|Node.js,Builds reactive web interfaces using the Vue.js framework
+Python Developer,Python|REST APIs|SQL|Problem Solving,Django|Flask|FastAPI|Git|Docker,Develops backend services scripts and automation using Python
+Java Developer,Java|SQL|Data Structures|Problem Solving|REST APIs,Spring Boot|Git|Docker|Maven,Builds enterprise-grade backend applications using Java
+C++ Developer,C++|Data Structures|Problem Solving|Algorithms|Memory Management,Git|Linux|Multithreading|CMake,Develops high-performance systems and applications in C++
+.NET Developer,C#|.NET|SQL|REST APIs|Problem Solving,Azure|Git|Entity Framework|Docker,Builds enterprise applications on the Microsoft .NET platform
+Site Reliability Engineer,Linux|Docker|Kubernetes|Monitoring|Python,AWS|CI/CD|Git|Terraform|Networking,Ensures reliability scalability and performance of production systems
+QA Engineer,Software Testing|Test Planning|Bug Tracking|Manual Testing,Selenium|JIRA|Automation Testing|SQL,Validates software quality through structured testing processes
+Software Test Engineer,Software Testing|Manual Testing|Test Planning|Bug Tracking|SQL,Selenium|JIRA|Automation Testing|Python,Designs and executes test cases to ensure software reliability
+Automation Test Engineer,Selenium|Python|Automation Testing|Software Testing|CI/CD,JIRA|Docker|REST APIs|Git,Builds automated test suites to accelerate software quality assurance
+Deep Learning Engineer,Python|Deep Learning|Machine Learning|TensorFlow|PyTorch,Keras|GPU Computing|Data Analysis|Docker,Designs and trains deep neural network models for complex AI tasks
+NLP Engineer,Python|Machine Learning|NLP|Deep Learning|Data Analysis,TensorFlow|PyTorch|Transformers|SQL,Builds natural language processing systems and text-based AI models
+Computer Vision Engineer,Python|Computer Vision|Deep Learning|Machine Learning|OpenCV,TensorFlow|PyTorch|Data Analysis|Docker,Develops image and video recognition systems using deep learning
+Data Engineer,Python|SQL|ETL|Data Pipelines|Apache Spark,Airflow|AWS|Docker|Kafka|PostgreSQL,Builds and maintains data infrastructure and pipelines
+Data Visualization Specialist,SQL|Data Analysis|Tableau|Power BI|Excel,Python|Pandas|Storytelling|D3.js,Transforms complex data into clear and actionable visual insights
+Security Engineer,Cybersecurity|Networking|Linux|Python|Vulnerability Assessment,Wireshark|Burp Suite|Docker|AWS|Firewalls,Designs and implements security systems to protect infrastructure
+Ethical Hacker,Ethical Hacking|Penetration Testing|Networking|Linux|Cybersecurity,Wireshark|Burp Suite|Python|Metasploit,Performs authorized security assessments to identify system vulnerabilities
+Penetration Tester,Penetration Testing|Ethical Hacking|Networking|Linux|Cybersecurity,Metasploit|Burp Suite|Python|Wireshark,Conducts simulated cyberattacks to evaluate and improve system defenses
+Network Engineer,Networking|Linux|Routing|Switching|Firewalls,Python|AWS|Cisco|Wireshark|VPN,Designs configures and maintains computer network infrastructure
+Cloud Security Engineer,AWS|Cybersecurity|Networking|Linux|Cloud Computing,Docker|Kubernetes|Python|Azure|IAM,Secures cloud infrastructure and enforces compliance across cloud environments
+Product Manager,Product Management|Agile|User Research|Roadmapping|Stakeholder Management,JIRA|SQL|Wireframing|Data Analysis,Defines product vision and drives cross-functional teams to deliver value
+Project Manager,Project Management|Agile|Stakeholder Management|Risk Management|Communication,JIRA|Scrum|MS Project|Budgeting,Plans and oversees projects to ensure on-time and on-budget delivery
+Technical Product Manager,Product Management|Agile|SQL|Technical Writing|Stakeholder Management,JIRA|REST APIs|Data Analysis|Wireframing,Bridges technical teams and business stakeholders to deliver software products
+Business Development Analyst,Business Analysis|Data Analysis|Excel|Communication|Market Research,SQL|Power BI|CRM|Presentation Skills,Identifies growth opportunities and supports strategic business decisions
+Digital Marketing Specialist,Digital Marketing|SEO|Social Media Marketing|Google Analytics|Content Creation,Email Marketing|PPC|Canva|CRM|Copywriting,Plans and executes digital campaigns to grow online presence and conversions
+SEO Specialist,SEO|Google Analytics|Keyword Research|Content Creation|HTML,Technical SEO|Backlink Analysis|WordPress|Copywriting|Data Analysis,Optimizes websites and content to improve organic search engine rankings
+Content Strategist,Content Creation|Copywriting|SEO|Content Planning|Communication,Social Media Marketing|WordPress|Data Analysis|Brand Strategy|Email Marketing,Develops and manages content strategies that align with business and audience goals

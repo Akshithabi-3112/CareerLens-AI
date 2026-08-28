@@ -1,0 +1,4 @@
+Model,Accuracy (%),Macro Precision (%),Macro Recall (%),Macro F1 (%),Latency (ms/sample)
+Random Forest,83.77,85.64,81.26,83.32,4.870
+Gradient Boosting,79.82,82.15,77.91,79.57,0.675
+Soft-Voting Ensemble,83.77,87.39,83.77,83.45,5.979

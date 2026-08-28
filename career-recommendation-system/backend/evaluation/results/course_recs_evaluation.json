@@ -1,0 +1,151 @@
+{
+  "summary": {
+    "total_profiles_evaluated": 8,
+    "total_missing_skills": 9,
+    "overall_gap_coverage_percent": 88.89,
+    "macro_gap_coverage_percent": 87.5,
+    "top1_course_coverage_percent": 77.78,
+    "top3_course_coverage_percent": 77.78,
+    "top5_course_coverage_percent": 88.89,
+    "course_relevance_percent": 100.0,
+    "certification_relevance_percent": 100.0
+  },
+  "per_profile_results": [
+    {
+      "profile_id": "profile_ml_engineer",
+      "target_career": "Machine Learning Engineer",
+      "missing_skills_count": 1,
+      "missing_skills": [
+        "SQL"
+      ],
+      "covered_skills_count": 1,
+      "gap_coverage_rate_percent": 100.0,
+      "top1_coverage_percent": 100.0,
+      "top3_coverage_percent": 100.0,
+      "top5_coverage_percent": 100.0,
+      "courses_recommended_count": 6,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 4,
+      "cert_relevance_rate_percent": 100.0
+    },
+    {
+      "profile_id": "profile_frontend_developer",
+      "target_career": "Frontend Developer",
+      "missing_skills_count": 0,
+      "missing_skills": [],
+      "covered_skills_count": 0,
+      "gap_coverage_rate_percent": 100.0,
+      "top1_coverage_percent": 100.0,
+      "top3_coverage_percent": 100.0,
+      "top5_coverage_percent": 100.0,
+      "courses_recommended_count": 0,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 0,
+      "cert_relevance_rate_percent": 100.0
+    },
+    {
+      "profile_id": "profile_devops_engineer",
+      "target_career": "DevOps Engineer",
+      "missing_skills_count": 0,
+      "missing_skills": [],
+      "covered_skills_count": 0,
+      "gap_coverage_rate_percent": 100.0,
+      "top1_coverage_percent": 100.0,
+      "top3_coverage_percent": 100.0,
+      "top5_coverage_percent": 100.0,
+      "courses_recommended_count": 0,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 0,
+      "cert_relevance_rate_percent": 100.0
+    },
+    {
+      "profile_id": "profile_backend_developer",
+      "target_career": "Backend Developer",
+      "missing_skills_count": 2,
+      "missing_skills": [
+        "Python",
+        "FastAPI"
+      ],
+      "covered_skills_count": 2,
+      "gap_coverage_rate_percent": 100.0,
+      "top1_coverage_percent": 100.0,
+      "top3_coverage_percent": 100.0,
+      "top5_coverage_percent": 100.0,
+      "courses_recommended_count": 6,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 4,
+      "cert_relevance_rate_percent": 100.0
+    },
+    {
+      "profile_id": "profile_data_analyst",
+      "target_career": "Data Analyst",
+      "missing_skills_count": 1,
+      "missing_skills": [
+        "Excel"
+      ],
+      "covered_skills_count": 0,
+      "gap_coverage_rate_percent": 0.0,
+      "top1_coverage_percent": 0.0,
+      "top3_coverage_percent": 0.0,
+      "top5_coverage_percent": 0.0,
+      "courses_recommended_count": 0,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 0,
+      "cert_relevance_rate_percent": 100.0
+    },
+    {
+      "profile_id": "profile_cybersecurity",
+      "target_career": "Cybersecurity Analyst",
+      "missing_skills_count": 1,
+      "missing_skills": [
+        "Networking"
+      ],
+      "covered_skills_count": 1,
+      "gap_coverage_rate_percent": 100.0,
+      "top1_coverage_percent": 100.0,
+      "top3_coverage_percent": 100.0,
+      "top5_coverage_percent": 100.0,
+      "courses_recommended_count": 2,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 2,
+      "cert_relevance_rate_percent": 100.0
+    },
+    {
+      "profile_id": "profile_mobile_dev",
+      "target_career": "Mobile App Developer",
+      "missing_skills_count": 3,
+      "missing_skills": [
+        "React Native",
+        "JavaScript",
+        "Mobile Development"
+      ],
+      "covered_skills_count": 3,
+      "gap_coverage_rate_percent": 100.0,
+      "top1_coverage_percent": 66.67,
+      "top3_coverage_percent": 66.67,
+      "top5_coverage_percent": 100.0,
+      "courses_recommended_count": 6,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 2,
+      "cert_relevance_rate_percent": 100.0
+    },
+    {
+      "profile_id": "profile_database_admin",
+      "target_career": "Database Administrator",
+      "missing_skills_count": 1,
+      "missing_skills": [
+        "Python"
+      ],
+      "covered_skills_count": 1,
+      "gap_coverage_rate_percent": 100.0,
+      "top1_coverage_percent": 100.0,
+      "top3_coverage_percent": 100.0,
+      "top5_coverage_percent": 100.0,
+      "courses_recommended_count": 6,
+      "course_relevance_rate_percent": 100.0,
+      "certs_recommended_count": 4,
+      "cert_relevance_rate_percent": 100.0
+    }
+  ],
+  "limitations": "Course recommendations depend on the 67 curated courses in courses.csv. Highly specialized or newly emerging sub-skills may rely on general category courses."
+}

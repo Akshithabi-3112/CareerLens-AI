@@ -1,0 +1,86 @@
+skill,course_name,provider,difficulty,duration,course_type,certification_available,url,skills_covered
+Machine Learning,Machine Learning Specialization,DeepLearning.AI / Coursera,Intermediate,3 Months,Specialization,True,https://www.coursera.org/specializations/machine-learning-introduction,Machine Learning|Python|NumPy|Scikit-learn
+Deep Learning,Deep Learning Specialization,DeepLearning.AI / Coursera,Intermediate,4 Months,Specialization,True,https://www.coursera.org/specializations/deep-learning,Deep Learning|Neural Networks|TensorFlow|Python
+TensorFlow,TensorFlow Developer Professional Certificate,DeepLearning.AI / Coursera,Intermediate,2 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/tensorflow-in-practice,TensorFlow|Deep Learning|Computer Vision|NLP
+PyTorch,Deep Neural Networks with PyTorch,IBM / Coursera,Intermediate,2 Months,Course,True,https://www.coursera.org/learn/deep-neural-networks-with-pytorch,PyTorch|Deep Learning|Python
+Natural Language Processing,Natural Language Processing Specialization,DeepLearning.AI / Coursera,Advanced,3 Months,Specialization,True,https://www.coursera.org/specializations/natural-language-processing,NLP|Machine Learning|Deep Learning|Python
+Computer Vision,Computer Vision with OpenCV and Deep Learning,Udemy,Advanced,2 Months,Course,False,https://www.udemy.com,Computer Vision|OpenCV|Python|Deep Learning
+Data Analysis,Google Data Analytics Professional Certificate,Google / Coursera,Beginner,6 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/google-data-analytics,Data Analysis|SQL|Spreadsheets|Tableau|R
+Data Science,IBM Data Science Professional Certificate,IBM / Coursera,Beginner,5 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/ibm-data-science,Data Science|Python|SQL|Machine Learning|Data Visualization
+Statistics,Statistics with Python Specialization,University of Michigan / Coursera,Beginner,2 Months,Specialization,True,https://www.coursera.org/specializations/statistics-with-python,Statistics|Python|Data Analysis
+Pandas,Data Analysis with Pandas and Python,Udemy,Beginner,1 Month,Course,False,https://www.udemy.com,Pandas|NumPy|Python|Data Analysis
+Tableau,Tableau Desktop Specialist Certification Prep,Udemy,Beginner,1 Month,Course,True,https://www.udemy.com,Tableau|Data Visualization|Business Intelligence
+Power BI,Microsoft Power BI Data Analyst Professional Certificate,Microsoft / Coursera,Beginner,3 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst,Power BI|Data Analysis|Business Intelligence|DAX
+Python,Python for Everybody Specialization,University of Michigan / Coursera,Beginner,4 Months,Specialization,True,https://www.coursera.org/specializations/python,Python|Data Structures|Web Scraping|Databases
+SQL,SQL for Data Science,UC Davis / Coursera,Beginner,4 Weeks,Course,True,https://www.coursera.org/learn/sql-for-data-science,SQL|Database Design|Data Analysis
+PostgreSQL,PostgreSQL for Everybody Specialization,University of Michigan / Coursera,Intermediate,2 Months,Specialization,True,https://www.coursera.org/specializations/postgresql-for-everybody,PostgreSQL|SQL|Database Design
+MySQL,The Ultimate MySQL Bootcamp,Udemy,Beginner,1 Month,Course,False,https://www.udemy.com,MySQL|SQL|Database Design
+MongoDB,MongoDB University Node.js & Database Path,MongoDB University,Beginner,1 Month,Course,True,https://learn.mongodb.com,MongoDB|NoSQL|Database Design
+Database Design,Database Systems Concepts and Design,Georgia Tech / edX,Intermediate,2 Months,Course,True,https://www.edx.org,Database Design|SQL|Relational Databases
+Java,Java Programming and Software Engineering Fundamentals,Duke University / Coursera,Beginner,5 Months,Specialization,True,https://www.coursera.org/specializations/java-programming,Java|Object-Oriented Programming|Data Structures
+Spring Boot,Spring Boot 3 and Spring Framework 6 with Java,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,Spring Boot|Java|REST APIs|Microservices
+C++,C++ For C Programmers Specialization,UC Santa Cruz / Coursera,Intermediate,2 Months,Specialization,True,https://www.coursera.org/specializations/c-plus-plus-modern-c,C++|Object-Oriented Programming|Algorithms
+C#,C# and .NET for Beginners,Microsoft / freeCodeCamp,Beginner,1 Month,Course,True,https://www.freecodecamp.org,C#|.NET|Object-Oriented Programming
+.NET,ASP.NET Core Full Stack Development,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,.NET|C#|REST APIs|Web Development
+Data Structures,Data Structures and Algorithms Specialization,UC San Diego / Coursera,Intermediate,4 Months,Specialization,True,https://www.coursera.org/specializations/data-structures-algorithms,Data Structures|Algorithms|Problem Solving
+Algorithms,Algorithms Part I & II,Princeton University / Coursera,Intermediate,3 Months,Course,False,https://www.coursera.org/learn/algorithms-part1,Algorithms|Data Structures|Java
+JavaScript,The Complete JavaScript Course 2026: From Zero to Expert,Udemy,Beginner,2 Months,Course,False,https://www.udemy.com,JavaScript|DOM Manipulation|Async JavaScript|ES6
+TypeScript,Understanding TypeScript - 2026 Edition,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,TypeScript|JavaScript|Object-Oriented Programming
+HTML,HTML and CSS in Depth,Meta / Coursera,Beginner,1 Month,Course,True,https://www.coursera.org/learn/html-and-css-in-depth,HTML|CSS|Web Development
+CSS,Advanced CSS and Sass: Flexbox Grid Animations,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,CSS|Responsive Design|Sass
+React,Meta Front-End Developer Professional Certificate,Meta / Coursera,Intermediate,5 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/meta-front-end-developer,React|JavaScript|HTML|CSS|UI/UX
+Next.js,Next.js 14 & React - The Complete Guide,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,Next.js|React|Full Stack|TypeScript
+Angular,Angular - The Complete Guide,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,Angular|TypeScript|RxJS|Web Development
+Vue.js,Vue - The Complete Guide,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,Vue.js|JavaScript|Frontend|State Management
+Node.js,Node.js Express MongoDB & More: The Complete Bootcamp,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,Node.js|Express|MongoDB|REST APIs
+Express,Developing Back-End Apps with Node.js and Express,IBM / Coursera,Intermediate,1 Month,Course,True,https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express,Express|Node.js|REST APIs
+FastAPI,FastAPI Modern Python Web APIs,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,FastAPI|Python|REST APIs|Docker
+REST APIs,RESTful Web API Design with Node.js and Express,Coursera,Intermediate,3 Weeks,Course,True,https://www.coursera.org,REST APIs|API Design|JSON
+GraphQL,GraphQL by Example,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,GraphQL|Node.js|APIs
+Docker,Docker & Kubernetes: The Practical Guide,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,Docker|Kubernetes|DevOps|Containerization
+Kubernetes,Certified Kubernetes Application Developer (CKAD) Prep,Linux Foundation / Udemy,Advanced,2 Months,Certification,True,https://www.cncf.io/certification/ckad/,Kubernetes|Docker|DevOps|Cloud
+AWS,AWS Certified Cloud Practitioner & Solutions Architect,Amazon Web Services / Coursera,Beginner,3 Months,Certification,True,https://aws.amazon.com/certification/,AWS|Cloud Computing|DevOps|Networking
+Azure,Microsoft Certified: Azure Fundamentals (AZ-900),Microsoft / Coursera,Beginner,1 Month,Certification,True,https://learn.microsoft.com/certifications/azure-fundamentals/,Azure|Cloud Computing|DevOps
+Google Cloud,Google Cloud Digital Leader & Associate Cloud Engineer,Google Cloud / Coursera,Intermediate,2 Months,Certification,True,https://cloud.google.com/certification,GCP|Cloud Computing|DevOps
+DevOps,DevOps on AWS Specialization,AWS / Coursera,Intermediate,3 Months,Specialization,True,https://www.coursera.org/specializations/aws-devops,DevOps|AWS|CI/CD|Docker
+CI/CD,Continuous Integration and Continuous Delivery (CI/CD),IBM / Coursera,Intermediate,1 Month,Course,True,https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-cicd,CI/CD|DevOps|Git|Automation
+Git,Version Control with Git and GitHub,Meta / Coursera,Beginner,3 Weeks,Course,True,https://www.coursera.org/learn/version-control,Git|GitHub|Collaboration
+Linux,Linux for Developers & Sysadmins,The Linux Foundation / edX,Beginner,2 Months,Course,True,https://www.edx.org,Linux|Bash|Shell Scripting|Sysadmin
+Cybersecurity,Google Cybersecurity Professional Certificate,Google / Coursera,Beginner,6 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/google-cybersecurity,Cybersecurity|Linux|Python|Network Security|SIEM
+Network Security,CompTIA Security+ Exam Prep Specialization,CompTIA / Coursera,Intermediate,3 Months,Certification,True,https://www.comptia.org/certifications/security,Cybersecurity|Networking|Ethical Hacking|Security
+Ethical Hacking,The Complete Ethical Hacking Bootcamp,Udemy,Intermediate,2 Months,Course,True,https://www.udemy.com,Ethical Hacking|Penetration Testing|Cybersecurity|Linux
+Figma,Figma UI UX Design Essentials,Udemy,Beginner,1 Month,Course,False,https://www.udemy.com,Figma|UI/UX|Prototyping|Wireframing
+UI/UX Design,Google UX Design Professional Certificate,Google / Coursera,Beginner,6 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/google-ux-design,UI/UX Design|Figma|Prototyping|Wireframing|User Research
+User Research,User Research and Usability Testing,Interaction Design Foundation,Beginner,1 Month,Course,True,https://www.interaction-design.org,User Research|UX Design|Usability Testing
+Wireframing,Wireframing and Mobile App Design,Coursera,Beginner,3 Weeks,Course,True,https://www.coursera.org,Wireframing|Prototyping|Figma
+Digital Marketing,Google Digital Marketing & E-commerce Certificate,Google / Coursera,Beginner,6 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce,Digital Marketing|SEO|Email Marketing|Analytics
+SEO,Search Engine Optimization (SEO) Specialization,UC Davis / Coursera,Beginner,3 Months,Specialization,True,https://www.coursera.org/specializations/seo,SEO|Content Strategy|Keyword Research|Analytics
+Content Strategy,Content Strategy for Professionals Specialization,Northwestern University / Coursera,Beginner,2 Months,Specialization,True,https://www.coursera.org/specializations/content-strategy,Content Strategy|Copywriting|Marketing
+Flutter,Flutter & Dart - The Complete Guide,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,Flutter|Dart|Mobile App Development
+React Native,React Native - The Practical Guide,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,React Native|React|Mobile App Development|JavaScript
+Android,Android App Development Specialization,Vanderbilt University / Coursera,Intermediate,4 Months,Specialization,True,https://www.coursera.org/specializations/android-app-development,Android|Java|Kotlin|Mobile Development
+iOS,iOS & Swift - The Complete iOS App Development Bootcamp,Udemy,Intermediate,3 Months,Course,False,https://www.udemy.com,iOS|Swift|Xcode|Mobile Development
+Microservices,Building Microservices with Spring Boot & Spring Cloud,Udemy,Advanced,2 Months,Course,False,https://www.udemy.com,Microservices|Spring Boot|Docker|Kubernetes
+GraphQL,The Complete GraphQL Bootcamp with Node.js,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,GraphQL|Node.js|REST APIs
+Tailwind CSS,Tailwind CSS From Scratch,Udemy,Beginner,3 Weeks,Course,False,https://www.udemy.com,Tailwind CSS|CSS|HTML|Frontend
+GraphQL,Modern GraphQL with Node and React,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,GraphQL|React|Node.js
+Kafka,Apache Kafka Series - Learn Apache Kafka for Beginners,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,Kafka|Data Streaming|Distributed Systems
+Redis,Redis: The Complete Developer's Guide,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,Redis|NoSQL|Caching|Database Design
+MLOps,Machine Learning Engineering for Production (MLOps) Specialization,DeepLearning.AI / Coursera,Advanced,3 Months,Specialization,True,https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops,MLOps|Machine Learning|Docker|CI/CD|AWS
+Apache Spark,Apache Spark 3 - Real-time Big Data with Python and PySpark,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,Apache Spark|Python|Data Pipelines|Data Engineering
+Airflow,Data Pipelines with Apache Airflow,Astronomer / Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,Airflow|Python|ETL|Data Pipelines
+ETL,IBM Data Engineering Professional Certificate,IBM / Coursera,Intermediate,6 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/ibm-data-engineer,ETL|Data Engineering|Python|SQL|Apache Spark|Data Pipelines
+Software Testing,Software Testing and Automation Specialization,University of Minnesota / Coursera,Intermediate,3 Months,Specialization,True,https://www.coursera.org/specializations/software-testing-automation,Software Testing|Automation Testing|Manual Testing|Test Planning
+Selenium,Selenium WebDriver with Python and Automation Testing,Udemy,Intermediate,2 Months,Course,False,https://www.udemy.com,Selenium|Python|Automation Testing|Software Testing
+JIRA,Agile with Atlassian Jira,Atlassian / Coursera,Beginner,1 Month,Course,True,https://www.coursera.org/learn/agile-atlassian-jira,JIRA|Agile|Scrum|Project Management
+Agile,Agile Project Management Certificate,Google / Coursera,Beginner,2 Months,Professional Certificate,True,https://www.coursera.org/learn/agile-project-management,Agile|Scrum|Project Management|Product Management
+Product Management,Digital Product Management Specialization,University of Virginia / Coursera,Intermediate,3 Months,Specialization,True,https://www.coursera.org/specializations/uva-darden-digital-product-management,Product Management|Agile|User Research|Roadmapping
+Project Management,Google Project Management Professional Certificate,Google / Coursera,Beginner,6 Months,Professional Certificate,True,https://www.coursera.org/professional-certificates/google-project-management,Project Management|Agile|Stakeholder Management|Risk Management
+Wireshark,Wireshark Network Analysis and Security Troubleshooting,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,Wireshark|Networking|Network Security|Cybersecurity
+Burp Suite,Web Application Penetration Testing with Burp Suite,Udemy,Advanced,2 Months,Course,False,https://www.udemy.com,Burp Suite|Penetration Testing|Ethical Hacking|Cybersecurity
+Unity,Unity Certified Associate: Game Developer Specialization,Unity / Coursera,Intermediate,4 Months,Specialization,True,https://www.coursera.org/specializations/unity-game-developer,Unity|Game Design|C#|3D Modeling
+Blender,Complete Blender 3D Graphics and Animation,Udemy,Beginner,2 Months,Course,False,https://www.udemy.com,Blender|3D Modeling|Animation|Rendering
+Django,Django for Everybody Specialization,University of Michigan / Coursera,Intermediate,3 Months,Specialization,True,https://www.coursera.org/specializations/django,Django|Python|REST APIs|SQL
+Flask,REST APIs with Flask and Python,Udemy,Intermediate,1 Month,Course,False,https://www.udemy.com,Flask|Python|REST APIs|Docker
+Terraform,HashiCorp Certified: Terraform Associate Exam Prep,Udemy,Intermediate,1 Month,Certification,True,https://www.hashicorp.com/certification/terraform-associate,Terraform|DevOps|AWS|Cloud Infrastructure
+System Design,Software Architecture and System Design Fundamentals,Udemy,Advanced,2 Months,Course,False,https://www.udemy.com,System Design|Software Architecture|Microservices|Distributed Systems

@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "total_recommendations_evaluated": 80,
+    "total_factual_claims_checked": 686,
+    "faithfulness_score_percent": 100.0,
+    "hallucination_rate_percent": 0.0,
+    "explanation_coverage_percent": 100.0,
+    "mathematical_consistency_percent": 100.0,
+    "mean_absolute_math_error": 0.0254,
+    "max_absolute_math_error": 0.06
+  },
+  "per_profile_summaries": [
+    {
+      "profile_id": "profile_ml_engineer",
+      "top_career": "AI Engineer",
+      "executive_summary": "You match 3 of 4 required skills (75%) including Python, Machine Learning, Deep Learning. Your resume clusters into the 'Data Analysis / Deep Learning / Machine Learning careers' group with 58.5% similarity. The VotingClassifier ensemble assigns 23.4% confidence to this role based on your skill vector. Closing gaps in Data Analysis will elevate your readiness score from 75.0% to 100%."
+    },
+    {
+      "profile_id": "profile_frontend_developer",
+      "top_career": "Frontend Developer",
+      "executive_summary": "You match 4 of 4 required skills (100%) including JavaScript, HTML, CSS. Your resume clusters into the 'JavaScript / Git / CSS careers' group with 71.3% similarity. The VotingClassifier ensemble assigns 25.1% confidence to this role based on your skill vector."
+    },
+    {
+      "profile_id": "profile_devops_engineer",
+      "top_career": "DevOps Engineer",
+      "executive_summary": "You match 4 of 4 required skills (100%) including Docker, Git, AWS. Your resume clusters into the 'Linux / Networking / Python careers' group with 54.1% similarity. The VotingClassifier ensemble assigns 45.1% confidence to this role based on your skill vector."
+    },
+    {
+      "profile_id": "profile_backend_developer",
+      "top_career": "Java Developer",
+      "executive_summary": "You match 3 of 5 required skills (60%) including Java, SQL, REST APIs. Your resume clusters into the 'Problem Solving / SQL / Git careers' group with 52.0% similarity. The VotingClassifier ensemble assigns 53.4% confidence to this role based on your skill vector. Closing gaps in Data Structures, Problem Solving will elevate your readiness score from 60.0% to 100%."
+    },
+    {
+      "profile_id": "profile_data_analyst",
+      "top_career": "Data Scientist",
+      "executive_summary": "You match 4 of 5 required skills (80%) including Python, SQL, Data Analysis. Your resume clusters into the 'Data Analysis / Deep Learning / Machine Learning careers' group with 66.8% similarity. The VotingClassifier ensemble assigns 52.1% confidence to this role based on your skill vector. Closing gaps in Machine Learning will elevate your readiness score from 80.0% to 100%."
+    },
+    {
+      "profile_id": "profile_cybersecurity",
+      "top_career": "Ethical Hacker",
+      "executive_summary": "You match 4 of 5 required skills (80%) including Ethical Hacking, Penetration Testing, Linux. Your resume clusters into the 'Linux / Networking / Python careers' group with 61.8% similarity. The VotingClassifier ensemble assigns 33.8% confidence to this role based on your skill vector. Closing gaps in Networking will elevate your readiness score from 80.0% to 100%."
+    },
+    {
+      "profile_id": "profile_mobile_dev",
+      "top_career": "Android Developer",
+      "executive_summary": "You match 2 of 5 required skills (40%) including Kotlin, REST APIs. Your resume clusters into the 'Problem Solving / SQL / Git careers' group with 12.9% similarity. The VotingClassifier ensemble assigns 31.2% confidence to this role based on your skill vector. Closing gaps in Java, Android Development will elevate your readiness score from 40.0% to 100%."
+    },
+    {
+      "profile_id": "profile_database_admin",
+      "top_career": "Database Developer",
+      "executive_summary": "You match 4 of 4 required skills (100%) including SQL, MySQL, MongoDB. Your resume clusters into the 'Problem Solving / SQL / Git careers' group with 31.2% similarity. The VotingClassifier ensemble assigns 64.3% confidence to this role based on your skill vector."
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+skill,category,aliases
+Python,Programming,py|python programming
+Java,Programming,java programming
+C++,Programming,cpp|c plus plus
+C,Programming,c programming
+JavaScript,Programming,js|javascript programming
+TypeScript,Programming,ts
+C#,Programming,csharp|c sharp
+PHP,Programming,php programming
+R,Programming,r programming
+Go,Programming,golang
+Rust,Programming,rust programming
+Kotlin,Programming,kotlin programming
+Swift,Programming,swift programming
+SQL,Database,structured query language
+MySQL,Database,mysql database
+PostgreSQL,Database,postgres|postgresql database
+MongoDB,Database,mongodb database
+SQLite,Database,sqlite database
+Redis,Database,redis database
+Oracle,Database,oracle database
+Machine Learning,AI and Machine Learning,ml|machine-learning
+Deep Learning,AI and Machine Learning,dl|deep-learning
+Artificial Intelligence,AI and Machine Learning,ai|artificial intelligence
+Natural Language Processing,AI and Machine Learning,natural lang processing
+Computer Vision,AI and Machine Learning,cv|computer vision
+Neural Networks,AI and Machine Learning,neural network
+Scikit-learn,AI and Machine Learning,sklearn|scikit learn
+TensorFlow,AI and Machine Learning,tensorflow
+PyTorch,AI and Machine Learning,pytorch
+Pandas,Data Science,pandas library
+NumPy,Data Science,numpy
+Data Analysis,Data Science,data analytics
+Data Visualization,Data Science,data visualisation
+Statistics,Data Science,statistical analysis
+Matplotlib,Data Science,matplotlib
+Seaborn,Data Science,seaborn
+Tableau,Data Science,tableau
+Power BI,Data Science,powerbi|power bi
+Docker,DevOps,docker containers
+Kubernetes,DevOps,k8s
+Jenkins,DevOps,jenkins ci
+Git,DevOps,github|git version control
+GitHub,DevOps,github platform
+CI/CD,DevOps,continuous integration|continuous deployment
+Linux,DevOps,linux administration
+AWS,Cloud Computing,amazon web services
+Microsoft Azure,Cloud Computing,ms azure
+Google Cloud Platform,Cloud Computing,gcp
+EC2,Cloud Computing,amazon ec2
+S3,Cloud Computing,amazon s3
+Lambda,Cloud Computing,aws lambda
+HTML,Web Development,html5
+CSS,Web Development,css3
+React,Web Development,reactjs|react js
+Angular,Web Development,angularjs
+Vue.js,Web Development,vue|vuejs
+Node.js,Web Development,node|nodejs|node js
+FastAPI,Web Development,fast api
+Django,Web Development,django framework
+Flask,Web Development,flask framework
+REST API,Web Development,restful api|rest apis|api development
+Spring Boot,Web Development,springboot
+Android,Mobile Development,android development
+Flutter,Mobile Development,flutter development
+React Native,Mobile Development,react native development
+Kotlin Android,Mobile Development,kotlin for android
+Cybersecurity,Cybersecurity,cyber security|information security
+Network Security,Cybersecurity,network security analysis|infosec networking
+Ethical Hacking,Cybersecurity,ethical hacker|pentesting
+Cryptography,Cybersecurity,cryptography
+Wireshark,Cybersecurity,wireshark
+Burp Suite,Cybersecurity,burpsuite
+Communication,Soft Skills,communication skills
+Teamwork,Soft Skills,team player|collaboration
+Problem Solving,Soft Skills,problem-solving|problem solving skills
+Leadership,Soft Skills,leadership skills
+Critical Thinking,Soft Skills,analytical thinking
+Time Management,Soft Skills,time management skills
+Adaptability,Soft Skills,adaptable
+Creativity,Soft Skills,creative thinking
+Figma,Design,figma design
+Adobe XD,Design,adobexd|adobe experience design
+Sketch,Design,sketch app
+UI Design,Design,user interface design|ui/ux design
+UX Design,Design,user experience design
+Wireframing,Design,wireframe|wireframes
+Prototyping,Design,prototype|prototypes
+User Research,Design,ux research|user testing
+Usability Testing,Design,usability test|user testing
+Design Systems,Design,design system|component library
+Interaction Design,Design,interaction designer
+Information Architecture,Design,ia|information architecture
+Adobe Photoshop,Design,photoshop
+Adobe Illustrator,Design,illustrator
+InDesign,Design,adobe indesign
+Typography,Design,typeface|font design
+Branding,Design,brand design|brand identity
+Color Theory,Design,colour theory|color palette
+Canva,Design,canva design
+Graphic Design,Design,graphic designer|visual design
+Visual Design,Design,visual designer
+Motion Graphics,Design,motion design|motion graphic
+Animation,Design,2d animation|3d animation
+Adobe After Effects,Design,after effects|aftereffects
+Adobe Premiere Pro,Design,premiere pro|adobe premiere
+Video Editing,Design,video editor|video production
+Storyboarding,Design,storyboard
+Rigging,Design,character rigging
+Character Design,Design,character art
+3D Modeling,Design,3d model|3d modelling
+Blender,Design,blender 3d
+Maya,Design,autodesk maya
+Texturing,Design,texture mapping|pbr texturing
+Rendering,Design,3d rendering|render
+ZBrush,Design,zbrush sculpting
+Cinema 4D,Design,c4d|cinema4d
+UV Mapping,Design,uv unwrapping
+Lighting,Design,3d lighting|scene lighting
+Unity,Game Development,unity3d|unity engine
+Unreal Engine,Game Development,ue4|ue5|unreal
+Game Design,Game Development,game designer|game development
+Level Design,Game Development,level designer
+Scripting,Game Development,game scripting
+Storytelling,Game Development,narrative design
+Excel,Data Science,microsoft excel|ms excel
+NLP,AI and Machine Learning,natural language processing|text processing
+Keras,AI and Machine Learning,keras deep learning
+OpenCV,AI and Machine Learning,open cv|opencv python
+Transformers,AI and Machine Learning,huggingface|hugging face|transformer models
+GPU Computing,AI and Machine Learning,cuda|gpu acceleration
+ETL,Data Engineering,extract transform load|etl pipeline
+Data Pipelines,Data Engineering,data pipeline|pipeline engineering
+Apache Spark,Data Engineering,spark|pyspark
+Airflow,Data Engineering,apache airflow
+Kafka,Data Engineering,apache kafka
+D3.js,Data Science,d3|data driven documents
+Azure,Cloud Computing,microsoft azure|azure cloud
+Google Cloud,Cloud Computing,gcp|google cloud platform
+Terraform,DevOps,terraform iac|infrastructure as code
+GitHub Actions,DevOps,github actions ci|gh actions
+Monitoring,DevOps,system monitoring|observability
+Networking,Cybersecurity,computer networking|network administration
+Penetration Testing,Cybersecurity,pentest|pen testing
+Vulnerability Assessment,Cybersecurity,vulnerability scanning|security assessment
+Metasploit,Cybersecurity,metasploit framework
+Firewalls,Cybersecurity,firewall configuration|network firewall
+OWASP,Cybersecurity,owasp top 10
+Kali Linux,Cybersecurity,kali|kali os
+SIEM,Cybersecurity,security information event management|splunk siem
+Cloud Computing,Cloud Computing,cloud infrastructure|cloud services
+IAM,Cloud Computing,identity access management|aws iam
+Selenium,Testing,selenium webdriver|selenium testing
+Automation Testing,Testing,test automation|automated testing
+Manual Testing,Testing,manual test|functional testing
+Software Testing,Testing,software qa|quality assurance
+Test Planning,Testing,test plan|test strategy
+Bug Tracking,Testing,bug report|defect tracking
+API Testing,Testing,api test|postman testing
+Cypress,Testing,cypress testing|cypress io
+JUnit,Testing,junit testing|java unit testing
+PyTest,Testing,pytest framework|python testing
+iOS Development,Mobile Development,ios app development|iphone development
+Android Development,Mobile Development,android app development|android sdk
+Mobile Development,Mobile Development,mobile app development|cross platform mobile
+Objective-C,Programming,objc|objective c
+Xcode,Mobile Development,xcode ide
+Firebase,Mobile Development,firebase backend|google firebase
+REST APIs,Web Development,restful apis
+Responsive Design,Web Development,responsive web design|mobile first design
+Bootstrap,Web Development,bootstrap css|bootstrap framework
+Redux,Web Development,redux state management
+RxJS,Web Development,rxjs observables
+Vuex,Web Development,vuex store
+.NET,Programming,dotnet|dot net|asp.net
+Maven,Programming,apache maven|maven build
+Data Structures,Programming,data structure|algorithms and data structures
+Algorithms,Programming,algorithm design|algorithmic thinking
+Memory Management,Programming,memory allocation|pointers
+Multithreading,Programming,multi threading|concurrent programming
+CMake,Programming,cmake build system
+Database Design,Database,db design|schema design
+Agile,Project Management,agile methodology|agile development|scrum agile
+Scrum,Project Management,scrum methodology|scrum master
+JIRA,Project Management,jira software|atlassian jira
+Product Management,Project Management,product manager|product ownership
+Project Management,Project Management,project manager|pmp
+Roadmapping,Project Management,product roadmap|roadmap planning
+Stakeholder Management,Project Management,stakeholder engagement|stakeholder communication
+Risk Management,Project Management,risk assessment|risk mitigation
+Technical Writing,Project Management,technical documentation|tech writing
+Business Analysis,Business,business analyst|requirements analysis
+Market Research,Business,market analysis|competitive research
+Presentation Skills,Business,presentations|public speaking
+Budgeting,Business,budget management|financial planning
+CRM,Business,customer relationship management|salesforce crm
+SEO,Marketing,search engine optimization|seo optimization
+Digital Marketing,Marketing,online marketing|digital advertising
+Social Media Marketing,Marketing,social media|social media management
+Google Analytics,Marketing,ga4|google analytics 4
+Content Creation,Marketing,content writing|content marketing
+Email Marketing,Marketing,email campaigns|newsletter marketing
+PPC,Marketing,pay per click|google ads|paid advertising
+Copywriting,Marketing,copy writing|ad copywriting
+Keyword Research,Marketing,keyword analysis|seo keywords
+Technical SEO,Marketing,on page seo|technical optimization
+Backlink Analysis,Marketing,link building|backlink audit
+WordPress,Marketing,wordpress cms|wp development
+Brand Strategy,Marketing,brand management|brand positioning
+Content Planning,Marketing,content calendar|editorial planning
+MS Project,Project Management,microsoft project|ms project tool
+Routing,Networking,network routing|ip routing|bgp ospf
+Switching,Networking,network switching|vlan switching
+VPN,Networking,virtual private network|vpn configuration
+Cisco,Networking,cisco networking|cisco router|cisco switch
+Entity Framework,Programming,ef core|entity framework core

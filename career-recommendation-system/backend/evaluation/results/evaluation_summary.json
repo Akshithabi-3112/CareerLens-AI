@@ -1,0 +1,836 @@
+{
+  "metadata": {
+    "title": "Explainable Career, Course & Skill-Gap Recommendation System Evaluation",
+    "framework_version": "2.0.0"
+  },
+  "skill_extraction_evaluation": {
+    "sample_count": 8,
+    "total_ground_truth_skills": 81,
+    "total_extracted_skills": 95,
+    "micro_metrics": {
+      "precision": 0.7579,
+      "recall": 0.8889,
+      "f1_score": 0.8182
+    },
+    "macro_metrics": {
+      "precision": 0.7484,
+      "recall": 0.8873,
+      "f1_score": 0.812
+    },
+    "per_sample_results": [
+      {
+        "id": "resume_1_data_science",
+        "ground_truth_count": 18,
+        "extracted_count": 18,
+        "true_positives": 18,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      {
+        "id": "resume_2_frontend_web",
+        "ground_truth_count": 13,
+        "extracted_count": 13,
+        "true_positives": 10,
+        "false_positives": 3,
+        "false_negatives": 3,
+        "precision": 0.7692,
+        "recall": 0.7692,
+        "f1_score": 0.7692
+      },
+      {
+        "id": "resume_3_devops_cloud",
+        "ground_truth_count": 13,
+        "extracted_count": 13,
+        "true_positives": 11,
+        "false_positives": 2,
+        "false_negatives": 2,
+        "precision": 0.8462,
+        "recall": 0.8462,
+        "f1_score": 0.8462
+      },
+      {
+        "id": "resume_4_backend_java",
+        "ground_truth_count": 10,
+        "extracted_count": 11,
+        "true_positives": 9,
+        "false_positives": 2,
+        "false_negatives": 1,
+        "precision": 0.8182,
+        "recall": 0.9,
+        "f1_score": 0.8571
+      },
+      {
+        "id": "resume_5_mobile_flutter",
+        "ground_truth_count": 8,
+        "extracted_count": 8,
+        "true_positives": 6,
+        "false_positives": 2,
+        "false_negatives": 2,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1_score": 0.75
+      },
+      {
+        "id": "resume_6_cybersecurity",
+        "ground_truth_count": 6,
+        "extracted_count": 14,
+        "true_positives": 6,
+        "false_positives": 8,
+        "false_negatives": 0,
+        "precision": 0.4286,
+        "recall": 1.0,
+        "f1_score": 0.6
+      },
+      {
+        "id": "resume_7_database_admin",
+        "ground_truth_count": 7,
+        "extracted_count": 8,
+        "true_positives": 7,
+        "false_positives": 1,
+        "false_negatives": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1_score": 0.9333
+      },
+      {
+        "id": "resume_8_ui_ux_design",
+        "ground_truth_count": 6,
+        "extracted_count": 10,
+        "true_positives": 5,
+        "false_positives": 5,
+        "false_negatives": 1,
+        "precision": 0.5,
+        "recall": 0.8333,
+        "f1_score": 0.625
+      }
+    ]
+  },
+  "model_comparison_evaluation": {
+    "sample_count": 1824,
+    "num_features": 172,
+    "num_classes": 57,
+    "model_comparison": {
+      "Random Forest": {
+        "accuracy": 0.8377,
+        "macro_precision": 0.8564,
+        "macro_recall": 0.8126,
+        "macro_f1": 0.8332,
+        "avg_latency_ms_per_sample": 4.87
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.7982,
+        "macro_precision": 0.8215,
+        "macro_recall": 0.7791,
+        "macro_f1": 0.7957,
+        "avg_latency_ms_per_sample": 0.675
+      },
+      "Soft-Voting Ensemble": {
+        "accuracy": 0.8377,
+        "macro_precision": 0.8739,
+        "macro_recall": 0.8377,
+        "macro_f1": 0.8345,
+        "cv_3fold_accuracy_mean": 0.8268,
+        "cv_3fold_accuracy_std": 0.0318,
+        "avg_latency_ms_per_sample": 5.979
+      }
+    },
+    "top_features": [
+      {
+        "skill": "Java",
+        "importance": 0.0187
+      },
+      {
+        "skill": "Communication",
+        "importance": 0.0184
+      },
+      {
+        "skill": "SQL",
+        "importance": 0.0182
+      },
+      {
+        "skill": "Cybersecurity",
+        "importance": 0.0179
+      },
+      {
+        "skill": "Technical Writing",
+        "importance": 0.0163
+      },
+      {
+        "skill": "Software Testing",
+        "importance": 0.016
+      },
+      {
+        "skill": "Routing",
+        "importance": 0.0144
+      },
+      {
+        "skill": "UX Design",
+        "importance": 0.0142
+      },
+      {
+        "skill": "Python",
+        "importance": 0.0137
+      },
+      {
+        "skill": "Problem Solving",
+        "importance": 0.0137
+      }
+    ]
+  },
+  "clustering_evaluation": {
+    "dataset_career_count": 57,
+    "feature_dimensions": 172,
+    "k_sweep": [
+      {
+        "k": 2,
+        "silhouette_score": 0.1411
+      },
+      {
+        "k": 3,
+        "silhouette_score": 0.1577
+      },
+      {
+        "k": 4,
+        "silhouette_score": 0.1851
+      },
+      {
+        "k": 5,
+        "silhouette_score": 0.1879
+      },
+      {
+        "k": 6,
+        "silhouette_score": 0.2349
+      },
+      {
+        "k": 7,
+        "silhouette_score": 0.2708
+      },
+      {
+        "k": 8,
+        "silhouette_score": 0.2645
+      }
+    ],
+    "optimal_k_by_silhouette": 7,
+    "max_silhouette_score": 0.2708,
+    "production_k": 7,
+    "production_silhouette_score": 0.2708,
+    "cluster_size_distribution": {
+      "0": 12,
+      "1": 8,
+      "2": 5,
+      "3": 17,
+      "4": 3,
+      "5": 9,
+      "6": 3
+    },
+    "clusters_overview": {
+      "cluster_count": 7,
+      "silhouette_scores": {
+        "2": 0.1411011392594965,
+        "3": 0.15773348899061393,
+        "4": 0.1850684492655701,
+        "5": 0.18793871945628082,
+        "6": 0.23488357748976404,
+        "7": 0.27078571145811897,
+        "8": 0.264507136295
+      },
+      "best_silhouette_score": 0.2708,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "cluster_name": "Data Analysis / Deep Learning / Machine Learning careers",
+          "dominant_skills": [
+            "Data Analysis",
+            "Python",
+            "SQL",
+            "Deep Learning",
+            "Machine Learning",
+            "PyTorch"
+          ],
+          "careers": [
+            "Data Scientist",
+            "Machine Learning Engineer",
+            "Data Analyst",
+            "AI Engineer",
+            "Business Intelligence Analyst",
+            "Deep Learning Engineer",
+            "NLP Engineer",
+            "Computer Vision Engineer",
+            "Data Visualization Specialist",
+            "Product Manager",
+            "Technical Product Manager",
+            "Business Development Analyst"
+          ],
+          "career_count": 12
+        },
+        {
+          "cluster_id": 1,
+          "cluster_name": "JavaScript / Git / CSS careers",
+          "dominant_skills": [
+            "Git",
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "REST APIs",
+            "React"
+          ],
+          "careers": [
+            "Full Stack Developer",
+            "Frontend Developer",
+            "Web Developer",
+            "Mobile App Developer",
+            "iOS Developer",
+            "React Developer",
+            "Angular Developer",
+            "Vue.js Developer"
+          ],
+          "career_count": 8
+        },
+        {
+          "cluster_id": 2,
+          "cluster_name": "Prototyping / Figma / Wireframing careers",
+          "dominant_skills": [
+            "Figma",
+            "Prototyping",
+            "Wireframing",
+            "CSS",
+            "Design Systems",
+            "UX Design"
+          ],
+          "careers": [
+            "UI Designer",
+            "UX Designer",
+            "UI/UX Designer",
+            "Product Designer",
+            "Interaction Designer"
+          ],
+          "career_count": 5
+        },
+        {
+          "cluster_id": 3,
+          "cluster_name": "Problem Solving / SQL / Git careers",
+          "dominant_skills": [
+            "SQL",
+            "Git",
+            "Python",
+            "Docker",
+            "Problem Solving",
+            "Java"
+          ],
+          "careers": [
+            "Backend Developer",
+            "Software Engineer",
+            "Database Developer",
+            "Game Designer",
+            "3D Artist",
+            "Animator",
+            "Junior Software Developer",
+            "Android Developer",
+            "Python Developer",
+            "Java Developer",
+            "C++ Developer",
+            ".NET Developer",
+            "QA Engineer",
+            "Software Test Engineer",
+            "Automation Test Engineer",
+            "Data Engineer",
+            "Project Manager"
+          ],
+          "career_count": 17
+        },
+        {
+          "cluster_id": 4,
+          "cluster_name": "Content Creation / Copywriting / SEO careers",
+          "dominant_skills": [
+            "Content Creation",
+            "Copywriting",
+            "SEO",
+            "Data Analysis",
+            "Email Marketing",
+            "Google Analytics"
+          ],
+          "careers": [
+            "Digital Marketing Specialist",
+            "SEO Specialist",
+            "Content Strategist"
+          ],
+          "career_count": 3
+        },
+        {
+          "cluster_id": 5,
+          "cluster_name": "Linux / Networking / Python careers",
+          "dominant_skills": [
+            "Linux",
+            "Python",
+            "Networking",
+            "AWS",
+            "Cybersecurity",
+            "Docker"
+          ],
+          "careers": [
+            "DevOps Engineer",
+            "Cloud Engineer",
+            "Cybersecurity Analyst",
+            "Site Reliability Engineer",
+            "Security Engineer",
+            "Ethical Hacker",
+            "Penetration Tester",
+            "Network Engineer",
+            "Cloud Security Engineer"
+          ],
+          "career_count": 9
+        },
+        {
+          "cluster_id": 6,
+          "cluster_name": "Adobe Illustrator / Color Theory / Motion Graphics careers",
+          "dominant_skills": [
+            "Adobe Illustrator",
+            "Color Theory",
+            "Motion Graphics",
+            "Adobe Photoshop",
+            "Branding",
+            "Figma"
+          ],
+          "careers": [
+            "Graphic Designer",
+            "Visual Designer",
+            "Motion Graphics Designer"
+          ],
+          "career_count": 3
+        }
+      ]
+    }
+  },
+  "ranking_evaluation": {
+    "num_test_profiles": 8,
+    "baseline_compatibility_only": {
+      "p@1": 0.625,
+      "p@3": 0.5833,
+      "p@5": 0.525,
+      "r@1": 0.1875,
+      "r@3": 0.4896,
+      "r@5": 0.7396,
+      "ndcg@1": 0.625,
+      "ndcg@3": 0.6416,
+      "ndcg@5": 0.691,
+      "mrr": 0.7812,
+      "hit@1": 0.625,
+      "hit@3": 0.875,
+      "hit@5": 1.0
+    },
+    "proposed_hybrid_system": {
+      "p@1": 0.75,
+      "p@3": 0.6667,
+      "p@5": 0.525,
+      "r@1": 0.2083,
+      "r@3": 0.5938,
+      "r@5": 0.7396,
+      "ndcg@1": 0.6786,
+      "ndcg@3": 0.6784,
+      "ndcg@5": 0.6956,
+      "mrr": 0.8542,
+      "hit@1": 0.75,
+      "hit@3": 1.0,
+      "hit@5": 1.0
+    },
+    "percentage_improvement": {
+      "p@1": 20.0,
+      "p@3": 14.3,
+      "p@5": 0.0,
+      "r@1": 11.09,
+      "r@3": 21.28,
+      "r@5": 0.0,
+      "ndcg@1": 8.58,
+      "ndcg@3": 5.74,
+      "ndcg@5": 0.67,
+      "mrr": 9.34,
+      "hit@1": 20.0,
+      "hit@3": 14.29,
+      "hit@5": 0.0
+    }
+  },
+  "skill_gap_evaluation": {
+    "num_test_cases": 4,
+    "all_cases_passed": true,
+    "test_results": [
+      {
+        "case_id": "case_1_full_match",
+        "career": "Machine Learning Engineer",
+        "calculated_readiness": 100.0,
+        "expected_readiness": 100.0,
+        "matched_skills_accurate": true,
+        "missing_skills_accurate": true,
+        "readiness_accurate": true
+      },
+      {
+        "case_id": "case_2_partial_match",
+        "career": "Data Scientist",
+        "calculated_readiness": 50.0,
+        "expected_readiness": 50.0,
+        "matched_skills_accurate": true,
+        "missing_skills_accurate": true,
+        "readiness_accurate": true
+      },
+      {
+        "case_id": "case_3_zero_match",
+        "career": "DevOps Engineer",
+        "calculated_readiness": 0.0,
+        "expected_readiness": 0.0,
+        "matched_skills_accurate": true,
+        "missing_skills_accurate": true,
+        "readiness_accurate": true
+      },
+      {
+        "case_id": "case_4_frontend_match",
+        "career": "Frontend Developer",
+        "calculated_readiness": 75.0,
+        "expected_readiness": 75.0,
+        "matched_skills_accurate": true,
+        "missing_skills_accurate": true,
+        "readiness_accurate": true
+      }
+    ]
+  },
+  "course_recommendation_evaluation": {
+    "summary": {
+      "total_profiles_evaluated": 8,
+      "total_missing_skills": 9,
+      "overall_gap_coverage_percent": 88.89,
+      "macro_gap_coverage_percent": 87.5,
+      "top1_course_coverage_percent": 77.78,
+      "top3_course_coverage_percent": 77.78,
+      "top5_course_coverage_percent": 88.89,
+      "course_relevance_percent": 100.0,
+      "certification_relevance_percent": 100.0
+    },
+    "per_profile_results": [
+      {
+        "profile_id": "profile_ml_engineer",
+        "target_career": "Machine Learning Engineer",
+        "missing_skills_count": 1,
+        "missing_skills": [
+          "SQL"
+        ],
+        "covered_skills_count": 1,
+        "gap_coverage_rate_percent": 100.0,
+        "top1_coverage_percent": 100.0,
+        "top3_coverage_percent": 100.0,
+        "top5_coverage_percent": 100.0,
+        "courses_recommended_count": 6,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 4,
+        "cert_relevance_rate_percent": 100.0
+      },
+      {
+        "profile_id": "profile_frontend_developer",
+        "target_career": "Frontend Developer",
+        "missing_skills_count": 0,
+        "missing_skills": [],
+        "covered_skills_count": 0,
+        "gap_coverage_rate_percent": 100.0,
+        "top1_coverage_percent": 100.0,
+        "top3_coverage_percent": 100.0,
+        "top5_coverage_percent": 100.0,
+        "courses_recommended_count": 0,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 0,
+        "cert_relevance_rate_percent": 100.0
+      },
+      {
+        "profile_id": "profile_devops_engineer",
+        "target_career": "DevOps Engineer",
+        "missing_skills_count": 0,
+        "missing_skills": [],
+        "covered_skills_count": 0,
+        "gap_coverage_rate_percent": 100.0,
+        "top1_coverage_percent": 100.0,
+        "top3_coverage_percent": 100.0,
+        "top5_coverage_percent": 100.0,
+        "courses_recommended_count": 0,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 0,
+        "cert_relevance_rate_percent": 100.0
+      },
+      {
+        "profile_id": "profile_backend_developer",
+        "target_career": "Backend Developer",
+        "missing_skills_count": 2,
+        "missing_skills": [
+          "Python",
+          "FastAPI"
+        ],
+        "covered_skills_count": 2,
+        "gap_coverage_rate_percent": 100.0,
+        "top1_coverage_percent": 100.0,
+        "top3_coverage_percent": 100.0,
+        "top5_coverage_percent": 100.0,
+        "courses_recommended_count": 6,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 4,
+        "cert_relevance_rate_percent": 100.0
+      },
+      {
+        "profile_id": "profile_data_analyst",
+        "target_career": "Data Analyst",
+        "missing_skills_count": 1,
+        "missing_skills": [
+          "Excel"
+        ],
+        "covered_skills_count": 0,
+        "gap_coverage_rate_percent": 0.0,
+        "top1_coverage_percent": 0.0,
+        "top3_coverage_percent": 0.0,
+        "top5_coverage_percent": 0.0,
+        "courses_recommended_count": 0,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 0,
+        "cert_relevance_rate_percent": 100.0
+      },
+      {
+        "profile_id": "profile_cybersecurity",
+        "target_career": "Cybersecurity Analyst",
+        "missing_skills_count": 1,
+        "missing_skills": [
+          "Networking"
+        ],
+        "covered_skills_count": 1,
+        "gap_coverage_rate_percent": 100.0,
+        "top1_coverage_percent": 100.0,
+        "top3_coverage_percent": 100.0,
+        "top5_coverage_percent": 100.0,
+        "courses_recommended_count": 2,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 2,
+        "cert_relevance_rate_percent": 100.0
+      },
+      {
+        "profile_id": "profile_mobile_dev",
+        "target_career": "Mobile App Developer",
+        "missing_skills_count": 3,
+        "missing_skills": [
+          "React Native",
+          "JavaScript",
+          "Mobile Development"
+        ],
+        "covered_skills_count": 3,
+        "gap_coverage_rate_percent": 100.0,
+        "top1_coverage_percent": 66.67,
+        "top3_coverage_percent": 66.67,
+        "top5_coverage_percent": 100.0,
+        "courses_recommended_count": 6,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 2,
+        "cert_relevance_rate_percent": 100.0
+      },
+      {
+        "profile_id": "profile_database_admin",
+        "target_career": "Database Administrator",
+        "missing_skills_count": 1,
+        "missing_skills": [
+          "Python"
+        ],
+        "covered_skills_count": 1,
+        "gap_coverage_rate_percent": 100.0,
+        "top1_coverage_percent": 100.0,
+        "top3_coverage_percent": 100.0,
+        "top5_coverage_percent": 100.0,
+        "courses_recommended_count": 6,
+        "course_relevance_rate_percent": 100.0,
+        "certs_recommended_count": 4,
+        "cert_relevance_rate_percent": 100.0
+      }
+    ],
+    "limitations": "Course recommendations depend on the 67 curated courses in courses.csv. Highly specialized or newly emerging sub-skills may rely on general category courses."
+  },
+  "explainability_evaluation": {
+    "summary": {
+      "total_recommendations_evaluated": 80,
+      "total_factual_claims_checked": 686,
+      "faithfulness_score_percent": 100.0,
+      "hallucination_rate_percent": 0.0,
+      "explanation_coverage_percent": 100.0,
+      "mathematical_consistency_percent": 100.0,
+      "mean_absolute_math_error": 0.0254,
+      "max_absolute_math_error": 0.06
+    },
+    "per_profile_summaries": [
+      {
+        "profile_id": "profile_ml_engineer",
+        "top_career": "AI Engineer",
+        "executive_summary": "You match 3 of 4 required skills (75%) including Python, Machine Learning, Deep Learning. Your resume clusters into the 'Data Analysis / Deep Learning / Machine Learning careers' group with 58.5% similarity. The VotingClassifier ensemble assigns 23.4% confidence to this role based on your skill vector. Closing gaps in Data Analysis will elevate your readiness score from 75.0% to 100%."
+      },
+      {
+        "profile_id": "profile_frontend_developer",
+        "top_career": "Frontend Developer",
+        "executive_summary": "You match 4 of 4 required skills (100%) including JavaScript, HTML, CSS. Your resume clusters into the 'JavaScript / Git / CSS careers' group with 71.3% similarity. The VotingClassifier ensemble assigns 25.1% confidence to this role based on your skill vector."
+      },
+      {
+        "profile_id": "profile_devops_engineer",
+        "top_career": "DevOps Engineer",
+        "executive_summary": "You match 4 of 4 required skills (100%) including Docker, Git, AWS. Your resume clusters into the 'Linux / Networking / Python careers' group with 54.1% similarity. The VotingClassifier ensemble assigns 45.1% confidence to this role based on your skill vector."
+      },
+      {
+        "profile_id": "profile_backend_developer",
+        "top_career": "Java Developer",
+        "executive_summary": "You match 3 of 5 required skills (60%) including Java, SQL, REST APIs. Your resume clusters into the 'Problem Solving / SQL / Git careers' group with 52.0% similarity. The VotingClassifier ensemble assigns 53.4% confidence to this role based on your skill vector. Closing gaps in Data Structures, Problem Solving will elevate your readiness score from 60.0% to 100%."
+      },
+      {
+        "profile_id": "profile_data_analyst",
+        "top_career": "Data Scientist",
+        "executive_summary": "You match 4 of 5 required skills (80%) including Python, SQL, Data Analysis. Your resume clusters into the 'Data Analysis / Deep Learning / Machine Learning careers' group with 66.8% similarity. The VotingClassifier ensemble assigns 52.1% confidence to this role based on your skill vector. Closing gaps in Machine Learning will elevate your readiness score from 80.0% to 100%."
+      },
+      {
+        "profile_id": "profile_cybersecurity",
+        "top_career": "Ethical Hacker",
+        "executive_summary": "You match 4 of 5 required skills (80%) including Ethical Hacking, Penetration Testing, Linux. Your resume clusters into the 'Linux / Networking / Python careers' group with 61.8% similarity. The VotingClassifier ensemble assigns 33.8% confidence to this role based on your skill vector. Closing gaps in Networking will elevate your readiness score from 80.0% to 100%."
+      },
+      {
+        "profile_id": "profile_mobile_dev",
+        "top_career": "Android Developer",
+        "executive_summary": "You match 2 of 5 required skills (40%) including Kotlin, REST APIs. Your resume clusters into the 'Problem Solving / SQL / Git careers' group with 12.9% similarity. The VotingClassifier ensemble assigns 31.2% confidence to this role based on your skill vector. Closing gaps in Java, Android Development will elevate your readiness score from 40.0% to 100%."
+      },
+      {
+        "profile_id": "profile_database_admin",
+        "top_career": "Database Developer",
+        "executive_summary": "You match 4 of 4 required skills (100%) including SQL, MySQL, MongoDB. Your resume clusters into the 'Problem Solving / SQL / Git careers' group with 31.2% similarity. The VotingClassifier ensemble assigns 64.3% confidence to this role based on your skill vector."
+      }
+    ]
+  },
+  "ablation_study_evaluation": {
+    "config_a_baseline": {
+      "name": "Config A (Skill Only Baseline)",
+      "weights": {
+        "skill_match": 1.0,
+        "cluster_relevance": 0.0,
+        "ensemble_prediction": 0.0
+      },
+      "description": "Rule-based skill compatibility only, no ML signals",
+      "metrics": {
+        "p@1": 62.5,
+        "p@3": 58.33,
+        "p@5": 52.5,
+        "r@3": 48.96,
+        "ndcg@3": 64.16,
+        "ndcg@5": 69.1,
+        "mrr": 78.12,
+        "hit@1": 62.5,
+        "hit@3": 87.5
+      },
+      "zero_skill_artificial_boost_detected": false,
+      "skill_gate_active": true
+    },
+    "config_b_skill_cluster": {
+      "name": "Config B (Skill + Cluster)",
+      "weights": {
+        "skill_match": 0.8,
+        "cluster_relevance": 0.2,
+        "ensemble_prediction": 0.0
+      },
+      "description": "Skill matching augmented by K-Means cluster similarity",
+      "metrics": {
+        "p@1": 62.5,
+        "p@3": 62.5,
+        "p@5": 52.5,
+        "r@3": 55.21,
+        "ndcg@3": 66.15,
+        "ndcg@5": 69.38,
+        "mrr": 79.17,
+        "hit@1": 62.5,
+        "hit@3": 100.0
+      },
+      "zero_skill_artificial_boost_detected": false,
+      "skill_gate_active": true
+    },
+    "config_c_conservative_ml": {
+      "name": "Config C (Conservative ML)",
+      "weights": {
+        "skill_match": 0.7,
+        "cluster_relevance": 0.15,
+        "ensemble_prediction": 0.15
+      },
+      "description": "Dominant skill match with conservative ML contributions",
+      "metrics": {
+        "p@1": 62.5,
+        "p@3": 66.67,
+        "p@5": 52.5,
+        "r@3": 59.38,
+        "ndcg@3": 67.1,
+        "ndcg@5": 69.08,
+        "mrr": 79.17,
+        "hit@1": 62.5,
+        "hit@3": 100.0
+      },
+      "zero_skill_artificial_boost_detected": false,
+      "skill_gate_active": true
+    },
+    "config_d_production": {
+      "name": "Config D (Production Setting)",
+      "weights": {
+        "skill_match": 0.6,
+        "cluster_relevance": 0.2,
+        "ensemble_prediction": 0.2
+      },
+      "description": "Optimal calibrated production hybrid weighting",
+      "metrics": {
+        "p@1": 75.0,
+        "p@3": 66.67,
+        "p@5": 52.5,
+        "r@3": 59.38,
+        "ndcg@3": 67.84,
+        "ndcg@5": 69.56,
+        "mrr": 85.42,
+        "hit@1": 75.0,
+        "hit@3": 100.0
+      },
+      "zero_skill_artificial_boost_detected": false,
+      "skill_gate_active": true
+    },
+    "config_e_balanced": {
+      "name": "Config E (Balanced Weights)",
+      "weights": {
+        "skill_match": 0.5,
+        "cluster_relevance": 0.25,
+        "ensemble_prediction": 0.25
+      },
+      "description": "Equal balance between skill matching and total ML signals",
+      "metrics": {
+        "p@1": 75.0,
+        "p@3": 66.67,
+        "p@5": 55.0,
+        "r@3": 59.38,
+        "ndcg@3": 67.84,
+        "ndcg@5": 71.6,
+        "mrr": 85.42,
+        "hit@1": 75.0,
+        "hit@3": 100.0
+      },
+      "zero_skill_artificial_boost_detected": false,
+      "skill_gate_active": true
+    },
+    "config_f_aggressive_ml": {
+      "name": "Config F (Aggressive ML)",
+      "weights": {
+        "skill_match": 0.4,
+        "cluster_relevance": 0.3,
+        "ensemble_prediction": 0.3
+      },
+      "description": "ML-heavy configuration prioritizing cluster & ensemble over exact skills",
+      "metrics": {
+        "p@1": 75.0,
+        "p@3": 66.67,
+        "p@5": 55.0,
+        "r@3": 59.38,
+        "ndcg@3": 65.9,
+        "ndcg@5": 71.35,
+        "mrr": 85.42,
+        "hit@1": 75.0,
+        "hit@3": 100.0
+      },
+      "zero_skill_artificial_boost_detected": false,
+      "skill_gate_active": true
+    }
+  }
+}

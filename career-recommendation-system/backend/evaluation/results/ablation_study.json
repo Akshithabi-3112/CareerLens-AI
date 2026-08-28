@@ -1,0 +1,134 @@
+{
+  "config_a_baseline": {
+    "name": "Config A (Skill Only Baseline)",
+    "weights": {
+      "skill_match": 1.0,
+      "cluster_relevance": 0.0,
+      "ensemble_prediction": 0.0
+    },
+    "description": "Rule-based skill compatibility only, no ML signals",
+    "metrics": {
+      "p@1": 62.5,
+      "p@3": 58.33,
+      "p@5": 52.5,
+      "r@3": 48.96,
+      "ndcg@3": 64.16,
+      "ndcg@5": 69.1,
+      "mrr": 78.12,
+      "hit@1": 62.5,
+      "hit@3": 87.5
+    },
+    "zero_skill_artificial_boost_detected": false,
+    "skill_gate_active": true
+  },
+  "config_b_skill_cluster": {
+    "name": "Config B (Skill + Cluster)",
+    "weights": {
+      "skill_match": 0.8,
+      "cluster_relevance": 0.2,
+      "ensemble_prediction": 0.0
+    },
+    "description": "Skill matching augmented by K-Means cluster similarity",
+    "metrics": {
+      "p@1": 62.5,
+      "p@3": 62.5,
+      "p@5": 52.5,
+      "r@3": 55.21,
+      "ndcg@3": 66.15,
+      "ndcg@5": 69.38,
+      "mrr": 79.17,
+      "hit@1": 62.5,
+      "hit@3": 100.0
+    },
+    "zero_skill_artificial_boost_detected": false,
+    "skill_gate_active": true
+  },
+  "config_c_conservative_ml": {
+    "name": "Config C (Conservative ML)",
+    "weights": {
+      "skill_match": 0.7,
+      "cluster_relevance": 0.15,
+      "ensemble_prediction": 0.15
+    },
+    "description": "Dominant skill match with conservative ML contributions",
+    "metrics": {
+      "p@1": 62.5,
+      "p@3": 66.67,
+      "p@5": 52.5,
+      "r@3": 59.38,
+      "ndcg@3": 67.1,
+      "ndcg@5": 69.08,
+      "mrr": 79.17,
+      "hit@1": 62.5,
+      "hit@3": 100.0
+    },
+    "zero_skill_artificial_boost_detected": false,
+    "skill_gate_active": true
+  },
+  "config_d_production": {
+    "name": "Config D (Production Setting)",
+    "weights": {
+      "skill_match": 0.6,
+      "cluster_relevance": 0.2,
+      "ensemble_prediction": 0.2
+    },
+    "description": "Optimal calibrated production hybrid weighting",
+    "metrics": {
+      "p@1": 75.0,
+      "p@3": 66.67,
+      "p@5": 52.5,
+      "r@3": 59.38,
+      "ndcg@3": 67.84,
+      "ndcg@5": 69.56,
+      "mrr": 85.42,
+      "hit@1": 75.0,
+      "hit@3": 100.0
+    },
+    "zero_skill_artificial_boost_detected": false,
+    "skill_gate_active": true
+  },
+  "config_e_balanced": {
+    "name": "Config E (Balanced Weights)",
+    "weights": {
+      "skill_match": 0.5,
+      "cluster_relevance": 0.25,
+      "ensemble_prediction": 0.25
+    },
+    "description": "Equal balance between skill matching and total ML signals",
+    "metrics": {
+      "p@1": 75.0,
+      "p@3": 66.67,
+      "p@5": 55.0,
+      "r@3": 59.38,
+      "ndcg@3": 67.84,
+      "ndcg@5": 71.6,
+      "mrr": 85.42,
+      "hit@1": 75.0,
+      "hit@3": 100.0
+    },
+    "zero_skill_artificial_boost_detected": false,
+    "skill_gate_active": true
+  },
+  "config_f_aggressive_ml": {
+    "name": "Config F (Aggressive ML)",
+    "weights": {
+      "skill_match": 0.4,
+      "cluster_relevance": 0.3,
+      "ensemble_prediction": 0.3
+    },
+    "description": "ML-heavy configuration prioritizing cluster & ensemble over exact skills",
+    "metrics": {
+      "p@1": 75.0,
+      "p@3": 66.67,
+      "p@5": 55.0,
+      "r@3": 59.38,
+      "ndcg@3": 65.9,
+      "ndcg@5": 71.35,
+      "mrr": 85.42,
+      "hit@1": 75.0,
+      "hit@3": 100.0
+    },
+    "zero_skill_artificial_boost_detected": false,
+    "skill_gate_active": true
+  }
+}

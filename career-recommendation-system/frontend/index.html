@@ -1,0 +1,552 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerLens AI — See Your Career Clearly</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       SIDEBAR
+  ═══════════════════════════════════════════ -->
+  <aside class="sidebar" id="sidebar">
+
+    <!-- Logo -->
+    <div class="sidebar-logo">
+      <span class="sidebar-logo-icon">◈</span>
+      <span class="sidebar-logo-text">CareerLens <span class="logo-accent">AI</span></span>
+    </div>
+
+    <!-- Nav -->
+    <nav class="sidebar-nav">
+
+      <div class="sidebar-group">
+        <span class="sidebar-group-label">Main</span>
+        <a href="#section-home" class="sidebar-link active" data-section="section-home">
+          <span class="sidebar-link-icon">⌂</span> Home
+        </a>
+        <a href="#section-upload" class="sidebar-link" data-section="section-upload">
+          <span class="sidebar-link-icon">📄</span> Resume Analysis
+        </a>
+      </div>
+
+      <div class="sidebar-group">
+        <span class="sidebar-group-label">Career Intelligence</span>
+        <a href="#section-careers" class="sidebar-link" data-section="section-careers" id="sidebarCareerLink">
+          <span class="sidebar-link-icon">🏆</span> Career Matches
+        </a>
+        <a href="#section-compare" class="sidebar-link" data-section="section-compare" id="sidebarCompareLink">
+          <span class="sidebar-link-icon">⚖️</span> Career Comparison
+        </a>
+        <a href="#section-skills" class="sidebar-link" data-section="section-skills" id="sidebarSkillLink">
+          <span class="sidebar-link-icon">🔍</span> Skill Gap Analysis
+        </a>
+      </div>
+
+      <div class="sidebar-group">
+        <span class="sidebar-group-label">Learning</span>
+        <a href="#section-roadmap" class="sidebar-link" data-section="section-roadmap" id="sidebarRoadmapLink">
+          <span class="sidebar-link-icon">🗺️</span> Learning Roadmap
+        </a>
+        <a href="#section-resources" class="sidebar-link" data-section="section-resources" id="sidebarResourcesLink">
+          <span class="sidebar-link-icon">▶️</span> Learning Resources
+        </a>
+      </div>
+
+      <div class="sidebar-group">
+        <span class="sidebar-group-label">Progress</span>
+        <a href="#section-progress" class="sidebar-link" data-section="section-progress" id="sidebarProgressLink">
+          <span class="sidebar-link-icon">📈</span> Progress Tracker
+        </a>
+      </div>
+
+      <div class="sidebar-group">
+        <span class="sidebar-group-label">Account</span>
+        <a href="#section-home" class="sidebar-link" data-section="section-home">
+          <span class="sidebar-link-icon">👤</span> Profile
+        </a>
+        <a href="#section-home" class="sidebar-link" data-section="section-home">
+          <span class="sidebar-link-icon">⚙</span> Settings
+        </a>
+      </div>
+
+    </nav>
+
+    <!-- Sidebar footer -->
+    <div class="sidebar-footer">
+      <span class="sidebar-footer-text">See Your Career Clearly</span>
+    </div>
+
+  </aside>
+
+  <!-- Mobile sidebar toggle -->
+  <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- ═══════════════════════════════════════════
+       MAIN WORKSPACE
+  ═══════════════════════════════════════════ -->
+  <div class="workspace" id="workspace">
+
+    <!-- Top bar -->
+    <header class="topbar" id="topbar">
+      <div class="topbar-left">
+        <span class="topbar-title" id="topbarTitle">Dashboard</span>
+      </div>
+      <div class="topbar-right">
+        <div class="topbar-status" id="topbarStatus">
+          <span class="status-dot"></span>
+          <span class="status-text">Backend: <span id="backendStatusText">Checking...</span></span>
+        </div>
+        <a href="#section-upload" class="btn btn-primary btn-sm sidebar-link" data-section="section-upload">
+          Upload Resume
+        </a>
+      </div>
+    </header>
+
+    <!-- ═══ SECTION: HOME ═══ -->
+    <section class="ws-section" id="section-home">
+      <div class="hero-dashboard">
+        <div class="hero-dashboard-bg">
+          <div class="hdb-orb hdb-orb-1"></div>
+          <div class="hdb-orb hdb-orb-2"></div>
+          <div class="hdb-grid"></div>
+        </div>
+        <div class="hero-dashboard-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            AI-Powered Career Intelligence
+          </div>
+          <h1 class="hero-title">
+            Understand Your Skills.<br />
+            <span class="gradient-text">Discover Your Career.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Upload your resume and let AI analyze your skills, identify career
+            opportunities, detect skill gaps, and create a personalized learning roadmap.
+          </p>
+          <div class="hero-actions">
+            <a href="#section-upload" class="btn btn-primary sidebar-link" data-section="section-upload">
+              <span>↑</span> Analyze My Resume
+            </a>
+            <a href="#section-careers" class="btn btn-ghost sidebar-link" data-section="section-careers">
+              View Career Matches <span>→</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-dashboard-stats">
+          <div class="hds-card">
+            <span class="hds-icon">🧠</span>
+            <span class="hds-value">AI</span>
+            <span class="hds-label">Skill Extraction</span>
+          </div>
+          <div class="hds-card">
+            <span class="hds-icon">🏆</span>
+            <span class="hds-value">10+</span>
+            <span class="hds-label">Career Matches</span>
+          </div>
+          <div class="hds-card">
+            <span class="hds-icon">📊</span>
+            <span class="hds-value">100%</span>
+            <span class="hds-label">Explainable</span>
+          </div>
+          <div class="hds-card">
+            <span class="hds-icon">🎓</span>
+            <span class="hds-value">Free</span>
+            <span class="hds-label">To Use</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- How it works -->
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">How It Works</h2>
+        <p class="ws-section-sub">Four steps to unlock your career potential</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon-wrap"><span class="step-icon">📄</span></div>
+          <h3 class="step-title">Upload Resume</h3>
+          <p class="step-desc">Upload your resume in PDF, DOCX, or TXT format.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon-wrap"><span class="step-icon">🧠</span></div>
+          <h3 class="step-title">AI Extracts Skills</h3>
+          <p class="step-desc">AI scans and extracts technical skills with confidence scoring.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon-wrap"><span class="step-icon">🎯</span></div>
+          <h3 class="step-title">Career Matches</h3>
+          <p class="step-desc">Top career opportunities ranked by compatibility score.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">04</div>
+          <div class="step-icon-wrap"><span class="step-icon">🗺️</span></div>
+          <h3 class="step-title">Learning Roadmap</h3>
+          <p class="step-desc">Personalized skill-gap roadmap to reach your target career.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SECTION: RESUME UPLOAD ═══ -->
+    <section class="ws-section" id="section-upload">
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">Resume Analysis</h2>
+        <p class="ws-section-sub">Upload your resume to receive your Career Intelligence Report</p>
+      </div>
+
+      <div class="upload-layout">
+        <div class="upload-card">
+          <div class="drop-zone" id="dropZone" role="button" tabindex="0" aria-label="Upload resume file">
+            <div class="drop-zone-inner">
+              <div class="drop-icon-wrap">
+                <span class="drop-icon">☁</span>
+              </div>
+              <p class="drop-title">Drag &amp; drop your resume here</p>
+              <p class="drop-subtitle">or</p>
+              <label for="fileInput" class="btn btn-outline">Browse File</label>
+              <input type="file" id="fileInput" accept=".pdf,.docx,.txt" hidden />
+              <p class="drop-formats">Supported: PDF, DOCX, TXT</p>
+            </div>
+          </div>
+
+          <div class="file-info" id="fileInfo" hidden>
+            <div class="file-info-inner">
+              <span class="file-info-icon">📎</span>
+              <span class="file-info-name" id="fileName"></span>
+              <button class="file-remove" id="fileRemove" aria-label="Remove file">✕</button>
+            </div>
+          </div>
+
+          <div class="upload-error" id="uploadError" hidden>
+            <span class="error-icon">⚠</span>
+            <span id="errorMessage"></span>
+          </div>
+
+          <button class="btn btn-primary btn-analyze" id="analyzeBtn" disabled>
+            <span class="btn-text">Analyze Resume</span>
+            <span class="btn-loader" id="btnLoader" style="display:none">
+              <span class="spinner"></span> Analyzing...
+            </span>
+          </button>
+        </div>
+
+        <div class="upload-tips-card">
+          <h4 class="tips-title">Tips for Best Results</h4>
+          <ul class="tips-list">
+            <li>Use a clearly formatted resume</li>
+            <li>Include a dedicated skills section</li>
+            <li>List tools, languages, and frameworks</li>
+            <li>PDF gives the most accurate extraction</li>
+          </ul>
+          <div class="tips-formats">
+            <span class="format-badge">PDF</span>
+            <span class="format-badge">DOCX</span>
+            <span class="format-badge">TXT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SECTION: CAREER MATCHES ═══ -->
+    <section class="ws-section" id="section-careers" hidden>
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">Career Matches</h2>
+        <p class="ws-section-sub">Click a career card to load its detailed skill analysis</p>
+      </div>
+
+      <!-- Cluster Analysis Card -->
+      <div class="ws-card cluster-analysis-card" id="clusterAnalysisCard" hidden>
+        <div class="ws-card-header-inner">
+          <span class="wc-icon">🔬</span>
+          <h3 class="wc-title">Career Cluster Analysis</h3>
+          <span class="wc-note">K-Means clustering of career skill profiles</span>
+        </div>
+        <div class="ws-card-body" id="clusterAnalysisBody"></div>
+      </div>
+
+      <!-- Ensemble Analysis Card -->
+      <div class="ws-card ensemble-analysis-card" id="ensembleAnalysisCard" hidden>
+        <div class="ws-card-header-inner">
+          <span class="wc-icon">🤖</span>
+          <h3 class="wc-title">Ensemble Career Ranking & Recommendation</h3>
+          <span class="wc-note">VotingClassifier (Random Forest + Gradient Boosting)</span>
+        </div>
+        <div class="ws-card-body" id="ensembleAnalysisBody"></div>
+      </div>
+
+      <div class="ws-card" id="careerMatchesCard">
+        <div class="ws-card-body" id="careerRecsBody">
+          <div class="empty-state">
+            <span class="empty-icon">🏆</span>
+            <p>Upload your resume to see career matches</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SECTION: CAREER COMPARISON ═══ -->
+    <section class="ws-section" id="section-compare" hidden>
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">Career Comparison</h2>
+        <p class="ws-section-sub">Compare any two recommended career paths side-by-side</p>
+      </div>
+
+      <div class="ws-card" id="careerComparisonCard">
+        <div class="ws-card-header-inner compare-header-flex">
+          <div class="compare-header-title-box">
+            <span class="wc-icon">⚖️</span>
+            <h3 class="wc-title">Side-by-Side Evaluation</h3>
+          </div>
+          <div class="comparison-selectors" id="comparisonSelectors">
+            <select class="compare-dropdown" id="compareSelectA" aria-label="Select Career A">
+              <option value="">Select Career A</option>
+            </select>
+            <span class="compare-vs-badge">VS</span>
+            <select class="compare-dropdown" id="compareSelectB" aria-label="Select Career B">
+              <option value="">Select Career B</option>
+            </select>
+            <button class="btn btn-outline btn-xs" id="swapCompareBtn" title="Swap Positions">⇄ Swap</button>
+            <button class="btn btn-outline btn-xs" id="resetCompareBtn" title="Reset Selection">↺ Reset</button>
+          </div>
+        </div>
+        <div class="ws-card-body" id="careerComparisonBody">
+          <div class="empty-state">
+            <span class="empty-icon">⚖️</span>
+            <p>Upload your resume and select two careers above to view side-by-side comparison</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SECTION: SKILL GAP ANALYSIS ═══ -->
+    <section class="ws-section" id="section-skills" hidden>
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">Skill Gap Analysis</h2>
+        <p class="ws-section-sub">
+          Analyzing: <span class="selected-career-inline" id="selectedCareerBadge">No career selected</span>
+        </p>
+      </div>
+      <div class="skill-analysis-layout">
+        <div class="skill-analysis-main">
+          <!-- Resume Summary -->
+          <div class="ws-card" style="margin-bottom:20px">
+            <div class="ws-card-header-inner">
+              <span class="wc-icon">📄</span>
+              <h3 class="wc-title">Resume Summary</h3>
+            </div>
+            <div class="ws-card-body" id="resumeSummaryBody"></div>
+          </div>
+          <!-- Extracted Skills -->
+          <div class="ws-card" style="margin-bottom:20px">
+            <div class="ws-card-header-inner">
+              <span class="wc-icon">⚡</span>
+              <h3 class="wc-title">Extracted Skills</h3>
+            </div>
+            <div class="ws-card-body" id="extractedSkillsBody"></div>
+          </div>
+          <!-- Skill Analysis -->
+          <div class="ws-card" style="margin-bottom:20px;">
+            <div class="ws-card-header-inner">
+              <span class="wc-icon">🔍</span>
+              <h3 class="wc-title">Matched &amp; Missing Skills</h3>
+            </div>
+            <div class="ws-card-body" id="careerAnalysisBody">
+              <div class="empty-state">
+                <span class="empty-icon">🔍</span>
+                <p>Select a career from Career Matches to see skill analysis</p>
+              </div>
+            </div>
+          </div>
+          <!-- Unified Explainability Card -->
+          <div class="ws-card unified-explanation-card" id="unifiedExplanationCard">
+            <div class="ws-card-header-inner">
+              <span class="wc-icon">💡</span>
+              <h3 class="wc-title">Why This Role? (Unified Explainability)</h3>
+              <span class="wc-note">Transparent rationale answering why, what matched, score math, and ML influences</span>
+            </div>
+            <div class="ws-card-body" id="unifiedExplanationBody">
+              <div class="empty-state">
+                <span class="empty-icon">💡</span>
+                <p>Select a career to view comprehensive explainability breakdown</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-analysis-side">
+          <div class="ws-card" style="margin-bottom:20px">
+            <div class="ws-card-header-inner">
+              <span class="wc-icon">🎓</span>
+              <h3 class="wc-title">What You Need to Learn</h3>
+            </div>
+            <div class="ws-card-body" id="whatToLearnBody">
+              <div class="empty-state">
+                <span class="empty-icon">🎓</span>
+                <p>Select a career to see learning recommendations</p>
+              </div>
+            </div>
+          </div>
+          <!-- Recommended Courses Card -->
+          <div class="ws-card">
+            <div class="ws-card-header-inner">
+              <span class="wc-icon">📚</span>
+              <h3 class="wc-title">Recommended Courses &amp; Certifications</h3>
+              <span class="wc-note">Curated learning to close skill gaps</span>
+            </div>
+            <div class="ws-card-body" id="recommendedCoursesBody">
+              <div class="empty-state">
+                <span class="empty-icon">📚</span>
+                <p>Select a career to view matching courses and certifications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SECTION: LEARNING ROADMAP ═══ -->
+    <section class="ws-section" id="section-roadmap" hidden>
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">Personalized Learning Roadmap</h2>
+        <p class="ws-section-sub">
+          Dynamic 6-stage progression roadmap tailored for: <span class="selected-career-inline" id="roadmapCareerBadge">No career selected</span>
+        </p>
+      </div>
+
+      <!-- Career-level 6-Stage Roadmap Card -->
+      <div class="ws-card career-roadmap-card" id="careerRoadmapCard" style="margin-bottom:24px;">
+        <div class="ws-card-header-inner">
+          <span class="wc-icon">🗺️</span>
+          <h3 class="wc-title">Career Progression Roadmap (6 Stages)</h3>
+          <span class="wc-note" id="roadmapProgressSummary">Dynamic sequence ordered by skill prerequisites</span>
+        </div>
+        <div class="ws-card-body" id="careerRoadmapStagesBody">
+          <div class="empty-state">
+            <span class="empty-icon">🗺️</span>
+            <p>Select a career to view its personalized 6-stage roadmap</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="roadmap-layout">
+        <div class="roadmap-sidebar">
+          <div class="ws-card">
+            <div class="ws-card-header-inner">
+              <span class="wc-icon">📋</span>
+              <h3 class="wc-title">Missing Skills</h3>
+            </div>
+            <div class="ws-card-body" id="roadmapSkillList">
+              <div class="empty-state">
+                <span class="empty-icon">📋</span>
+                <p>Upload resume first</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="roadmap-main">
+          <div class="roadmap-placeholder" id="roadmapPlaceholder">
+            <span class="roadmap-placeholder-icon">👈</span>
+            <p>Select a missing skill to view your personalized learning roadmap</p>
+          </div>
+          <div id="roadmapContent" hidden>
+            <div class="roadmap-skill-header">
+              <div>
+                <h3 class="roadmap-skill-name" id="roadmapSkillName"></h3>
+                <p class="roadmap-skill-why" id="roadmapSkillWhy"></p>
+              </div>
+            </div>
+            <div class="ws-card" style="margin-bottom:20px">
+              <div class="ws-card-header-inner">
+                <span class="wc-icon">💡</span>
+                <h3 class="wc-title">Learning Recommendation</h3>
+              </div>
+              <div class="ws-card-body">
+                <p class="roadmap-rec-text" id="roadmapRecText"></p>
+              </div>
+            </div>
+            <div class="ws-card" style="margin-bottom:20px">
+              <div class="ws-card-header-inner">
+                <span class="wc-icon">🗺️</span>
+                <h3 class="wc-title">Your Personalized Learning Roadmap</h3>
+              </div>
+              <div class="ws-card-body">
+                <div class="roadmap-stages" id="roadmapStages"></div>
+              </div>
+            </div>
+            <div class="ws-card">
+              <div class="ws-card-header-inner">
+                <span class="wc-icon">🧭</span>
+                <h3 class="wc-title">Recommended Learning Strategy</h3>
+                <span class="wc-note">Generated guidance — not from the backend API</span>
+              </div>
+              <div class="ws-card-body" id="learningStrategyBody"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SECTION: LEARNING RESOURCES ═══ -->
+    <section class="ws-section" id="section-resources" hidden>
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">Learning Resources</h2>
+        <p class="ws-section-sub">YouTube search links generated from your selected skill</p>
+      </div>
+      <div class="ws-card">
+        <div class="ws-card-header-inner">
+          <span class="wc-icon">▶️</span>
+          <h3 class="wc-title">YouTube Learning Resources</h3>
+          <span class="wc-note">Opens YouTube search in a new tab</span>
+        </div>
+        <div class="ws-card-body">
+          <div class="yt-buttons" id="ytButtons">
+            <div class="empty-state">
+              <span class="empty-icon">▶️</span>
+              <p>Select a skill from the Learning Roadmap to generate resource links</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SECTION: PROGRESS TRACKER ═══ -->
+    <section class="ws-section" id="section-progress" hidden>
+      <div class="ws-card-header">
+        <h2 class="ws-section-title">Progress Tracker</h2>
+        <p class="ws-section-sub">Track your learning progress for: <span class="selected-career-inline" id="progressCareerBadge">No career selected</span></p>
+      </div>
+      <div class="ws-card">
+        <div class="ws-card-header-inner">
+          <span class="wc-icon">📈</span>
+          <h3 class="wc-title">Skill Progress</h3>
+          <span class="progress-summary" id="progressSummary">0 of 0 skills completed</span>
+        </div>
+        <div class="ws-card-body" id="progressTrackerBody">
+          <div class="empty-state">
+            <span class="empty-icon">📈</span>
+            <p>Upload your resume to start tracking progress</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workspace footer -->
+    <footer class="ws-footer">
+      <span>© 2025 CareerLens AI · Explainable Career Recommendation System</span>
+      <button class="btn btn-outline btn-sm" id="analyzeAnotherBtn">↑ Analyze Another Resume</button>
+    </footer>
+
+  </div><!-- /workspace -->
+
+  <script src="app.js?v=2.0"></script>
+</body>
+</html>

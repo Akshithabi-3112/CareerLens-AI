@@ -1,0 +1,7 @@
+Metric,Value,Unit,Interpretation
+Faithfulness Score,100.00,%,Proportion of claims verified by underlying data
+Hallucination Rate,0.00,%,Proportion of unsupported or ungrounded claims
+Explanation Coverage,100.00,%,Proportion of recommendations with complete 6-part rationale
+Mathematical Consistency,100.00,%,Proportion of scores perfectly matching formula math
+Mean Absolute Math Error,0.0254,points,Average residual between stated and computed score
+Max Absolute Math Error,0.0600,points,Maximum residual between stated and computed score

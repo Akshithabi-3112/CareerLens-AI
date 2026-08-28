@@ -1,0 +1,9 @@
+id,ground_truth_count,extracted_count,true_positives,false_positives,false_negatives,precision,recall,f1_score
+resume_1_data_science,18,18,18,0,0,1.0,1.0,1.0
+resume_2_frontend_web,13,13,10,3,3,0.7692,0.7692,0.7692
+resume_3_devops_cloud,13,13,11,2,2,0.8462,0.8462,0.8462
+resume_4_backend_java,10,11,9,2,1,0.8182,0.9,0.8571
+resume_5_mobile_flutter,8,8,6,2,2,0.75,0.75,0.75
+resume_6_cybersecurity,6,14,6,8,0,0.4286,1.0,0.6
+resume_7_database_admin,7,8,7,1,0,0.875,1.0,0.9333
+resume_8_ui_ux_design,6,10,5,5,1,0.5,0.8333,0.625
